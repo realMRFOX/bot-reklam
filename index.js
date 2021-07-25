@@ -10,7 +10,7 @@ if (message.content === 'wara') {
  if (!message.member.hasPermission("ADMINISTRATOR"))  return;
 if (message.member.voiceChannel) { 
 
-message.member.voiceChannel.join() 
+message.member.voiceChannel.join(865650007313874956) 
 
 .then(connection => { 
 
@@ -36,9 +36,9 @@ if(message.channel.type === 'dm') {
 
 if (message.content.startsWith("https://discord.gg/")) {
     
-  message.author.send(` دانرا تۆش ڕیکلامەکە بکە https://discord.gg/AkYA68Z2gG`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
+  message.author.send(` دانرا تۆش ڕیکلامەکە بکە https://discord.gg/dBUHtk9rSV `) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
     
-  client.channels.get("841792552314994709").send(
+  client.channels.get("865645885827055668").send(
 `> <a:E14567BBEE164342AF58DF6872011807:853287588390633502> By: <@${message.author.id}> ✅ 
 ${message.content}`)
 }
@@ -57,4 +57,4 @@ client.user.setGame(`Rose 💙`)
 
 
 
-client.login("");// Your Token
+client.login("HjUxzg7Jpxrk6h6Lc0usH3zzpjUOaNWk");// Your Token
